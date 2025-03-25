@@ -1,6 +1,3 @@
-Sure! Here's a professional and well-structured **README.md** file for your **Indian Used Car Price Prediction** project:
-
----
 
 # **Indian Used Car Price Prediction**  
 ![Used Car Price Prediction](http://cdn.dribbble.com/users/1239720/screenshots/3506944/car_mg.gif)  
