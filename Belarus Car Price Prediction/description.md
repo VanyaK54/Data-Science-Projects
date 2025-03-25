@@ -1,29 +1,47 @@
 # Belarus Car Price Prediction
-![](https://i0.wp.com/bestsellingcarsblog.com/wp-content/uploads/2020/01/Geely-Atlas-Belarus-2019.jpg?fit=600%2C400&ssl=1)
-## Project Overview:
-The Belarus Car Price Prediction project aims to forecast the prices of cars in Belarus by leveraging a dataset containing essential car features. These features include the make, model, year of production, condition, mileage, fuel type, engine volume, color, transmission type, drive unit, and segment. With a total of 56,244 rows and 12 columns, this project seeks to identify the key variables that have the most significant impact on car prices within the Belarusian market.
 
-## Data Dictionary:
+![Belarus Car Market](https://i0.wp.com/bestsellingcarsblog.com/wp-content/uploads/2020/01/Geely-Atlas-Belarus-2019.jpg?fit=600%2C400&ssl=1)
 
-| Variable        | Description                                                |
-|-----------------|------------------------------------------------------------|
-| make            | Machine firm or car manufacturer                           |
-| model           | Machine model                                              |
-| price USD       | Price in USD (target variable)                             |
-| year            | Year of production                                         |
-| condition       | Represents the condition at the sale moment                |
-| mileage         | Mileage in kilometers                                      |
-| fuel type       | Type of fuel (electro, petrol, diesel)                     |
-| volume(cm3)     | Volume of the engine in cubic centimeters                  |
-| color           | Color of the car                                           |
-| transmission    | Type of transmission                                       |
-| drive unit      | Drive unit                                                 |
-| segment         | Segment of the car                                         |
+## Project Overview
+The **Belarus Car Price Prediction** project leverages machine learning techniques to forecast car prices in the Belarusian automotive market. Utilizing a dataset containing 56,244 rows and 12 essential features, this project aims to identify key variables that significantly influence car prices. Features such as make, model, year of production, mileage, fuel type, engine volume, and transmission type provide valuable insights into market dynamics, helping buyers and sellers make informed decisions.
 
-## Impact:
-Through exploratory data analysis, several key insights were discovered. Notably, there was a significant increase in car prices in Belarus after the year 2000. Cars running on petrol with automatic transmission tend to have higher prices compared to diesel cars with manual transmission. Electric cars stand out as notably more expensive than other car types. Furthermore, cars with all-wheel drive exhibit the highest prices among all drive units, and speciality segment cars command the highest prices among all segments, followed by luxury European, American, and Asian car segments.
+## Data Dictionary
 
-For the predictive modeling, a decision tree regressor was employed to forecast car prices. This model achieved an impressive accuracy rate of 85.29%. The most influential features in predicting car prices were identified as the year of production and the engine's volume in cubic centimeters.
+| **Variable**        | **Description**                                        |
+|----------------------|--------------------------------------------------------|
+| **make**            | Car manufacturer or brand.                             |
+| **model**           | Specific model of the car.                             |
+| **price USD**       | Price in US dollars (target variable).                 |
+| **year**            | Year of production.                                    |
+| **condition**       | Condition of the car at the time of sale.              |
+| **mileage**         | Total distance traveled in kilometers.                 |
+| **fuel type**       | Type of fuel (electric, petrol, diesel).               |
+| **volume (cm³)**    | Engine volume in cubic centimeters.                    |
+| **color**           | Exterior color of the car.                             |
+| **transmission**    | Type of transmission (manual, automatic).              |
+| **drive unit**      | Drive configuration (front-wheel, rear-wheel, AWD).    |
+| **segment**         | Car market segment (luxury, specialty, economy).       |
 
-This project offers valuable insights for both car buyers and sellers in Belarus, helping them make informed decisions in a dynamic automotive market.
+## Key Insights
+Exploratory data analysis (EDA) revealed several notable insights:
+- **Post-2000 Price Surge:** Car prices in Belarus have seen a marked increase since the year 2000.
+- **Fuel and Transmission Trends:**
+  - Petrol cars with automatic transmission tend to have higher prices than diesel cars with manual transmission.
+  - Electric cars stand out as significantly more expensive than other fuel types.
+- **Drive Unit Impact:**
+  - All-wheel-drive (AWD) vehicles command the highest prices among drive units.
+- **Segment Hierarchy:**
+  - Specialty segment cars lead in price, followed by luxury European, American, and Asian car segments.
 
+## Model Building and Evaluation
+For predictive modeling, a **Decision Tree Regressor** was employed to forecast car prices. The model achieved an impressive accuracy rate of **85.29%**, highlighting its effectiveness in capturing market trends.
+
+### **Most Influential Features:**
+- **Year of Production:** Older cars tend to depreciate, while newer models retain higher value.
+- **Engine Volume:** Larger engine volumes are associated with higher prices due to performance preferences.
+
+## Impact
+This project offers valuable insights for buyers, sellers, and market analysts by identifying key factors that influence car pricing. The predictive model enables stakeholders to make data-driven decisions, optimizing their approach in a dynamic automotive market.
+
+## Conclusion
+The **Belarus Car Price Prediction** project demonstrates the power of machine learning in understanding market dynamics. By analyzing historical data and key features, this model helps in anticipating price trends, supporting better financial decisions for both buyers and sellers in Belarus.
