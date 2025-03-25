@@ -45,4 +45,3 @@ The Random Forest Regressor demonstrated better generalization and predictive pe
 
 This study confirms that temperature is the most influential variable in crop yield prediction, with rainfall, fertilizer, and macronutrient levels also playing essential roles. The presence of two distinct crop clusters suggests differing environmental requirements. The Random Forest Regressor provides a reliable predictive model, but future research could explore additional variables, such as soil quality and pest impact, to enhance prediction accuracy and practical applicability.
 
-git
